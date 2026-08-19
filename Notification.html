@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,12 +23,10 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contact.css">
-
+    <link rel="stylesheet" href="css/notification.css">
 </head>
 
 <body>
-
 
     <!-- start navbar home section -->
 
@@ -158,9 +157,9 @@
                                 </svg>
                                 Public profile
                             </a>
-                      
-                            
-                          
+
+
+
                             <a href="Notification.html" class="value">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none">
                                     <path fill-rule="evenodd" fill="#7D8590"
@@ -181,168 +180,46 @@
 
         </div>
     </nav>
-
-    <!-- end navbar home section -->
-
+    <!-- start navbar home section -->
 
 
 
-    <!-- start appointment contact section -->
+    <!-- start notification section -->
 
-    <section class="appointment-contact">
-        <div class="container pl-5 pr-5">
+    <section class="notification">
+
+        <div class="container">
             <div class="row">
-
                 <div class="col-md-12">
+                    <div class="text-center">
+                        <i class="fa-solid fa-bell fa-2xl" style="color: rgb(116, 192, 252);"></i>
+                        <h2> Notifications</h2>
 
-
-                    <h3 class=" mb-3"><span>
-                            <i class="fa-solid fa-calendar-days fa-lg" style="color: rgb(116, 192, 252);"></i></span>
-                        Book AN Appointment</h3>
-
-                    <form id="fromappointment" target="_self" method="post">
-
-                        <input type="text" name="patient" placeholder="Enter Your Name"
-                            class="form-control mb-2 rounded-3 input-name" required>
-                        <input type="email" name="email" placeholder="Enter Your Email"
-                            class="form-control mb-2 rounded-3 input-email" required>
-                        <input type="tel" name="phone" placeholder="Phone"
-                            class="form-control mb-2 rounded-3 input-phone" required>
-
-                        <input type="date" name="date" class=" p-1" required>
-
-                        <select name="time" required>
-                            <option value="" disabled>Avalailable Time</option>
-                            <option value="11.00">11.00</option>
-                            <option value="12.00">12.00</option>
-                        </select>
-
-                        <br>
-
-
-                        <select name="doctor" id="doctor" required>
-                            <option value="" disabled>Select Doctor</option>
-                        </select>
-
-
-                        <br>
-
-                        <select name="payment" id="payment" required>
-                            <option value="" disabled>Payment</option>
-                            <option value="credit">Credit</option>
-                            <option value="Cash">cash</option>
-                        </select>
-
-
-                        <br>
-                        <textarea name="message" cols="15" rows="2" placeholder="message" class="mt-2"></textarea>
-                        <br>
-
-                        <input type="submit" value="Book An Appointment" class="btn btn-primary p-2 ">
-
-                        
-
-                        <input type="submit" value="Cancel An Appointment" class="btn btn-dark p-2  mt-3">
-
-
-
-
-
-
-
-                    </form>
-
-
-
-
-
-
-
+                    </div>
+                    <div class="alert alert-info alert-dismissible fade show" role="alert">
+                        <i class="fa-solid fa-check fa-2xl" style="color: rgb(193, 193, 78);"></i>
+                          Your appointment has been confirmed!
+Your appointment is scheduled for Tuesday, August 25 at 4:00 PM.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
 
 
-    <!-- start appointment contact section -->
+
+
+    <!-- start notification section -->
 
 
 
 
 
 
-
-
-    <!-- start call contact section -->
-
-    <section class="call-contact">
-        <div class="container pl-5 pr-5">
-
-            <div class="row">
-
-
-
-
-
-                <div class="col-md-6 text-start  d-flex flex-column align-items-start  ">
-                    <div class="mb-5">
-                        <h2>ADDERSS</h2>
-                        <P><i class="fa-solid fa-location-dot" style="color: rgb(59, 167, 255);"></i>El Gomhoureya
-                            Street, Mansoura, Dakahlia, Egypt 60</P>
-                        <P><i class="fa-solid fa-phone" style="color: rgb(59, 167, 255);;"></i>Phone:123456789</P>
-                        <P><i class="fa-regular fa-envelope"
-                                style="color: rgb(59, 167, 255);;"></i>Support@foodlover.com</P>
-                    </div>
-
-
-                    <div class="mb-5">
-                        <h2>WORKING HOURS</h2>
-                        <P>7.00 am to 12.00 am on Weekday<br> 10.00 am to 1.00 am on Weekend </P>
-
-                    </div>
-
-
-                    <div class="mb-5">
-                        <h2>FOLLOW US</h2>
-                        <div class="icons ">
-
-                            <a href="https://www.facebook.com/MansouraUniversityOfficial"
-                                class="bg-info rounded-pill p-1 m-1 "><i class="fa-brands fa-facebook-f"
-                                    style="color: rgb(235, 244, 250); "></i></a>
-                            <a href="https://twitter.com/Mansoura_un" class="bg-info rounded-pill p-1  m-1"><i
-                                    class="fa-brands fa-twitter" style="color: rgb(235, 244, 250);"></i></a>
-                            <a href="https://www.instagram.com/mansourauniversityofficial"
-                                class="bg-info rounded-pill p-1  m-1"><i class="fa-brands fa-instagram"
-                                    style="color: rgb(235, 244, 250);"></i></a>
-
-
-
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-
-                <div class="col-md-6 mt-3">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.361127448946!2d31.361261274994984!3d31.044044774435577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd0441cbe8f%3A0x3a28297de7005a5!2sMansoura%20University%20Hospitals!5e0!3m2!1sen!2seg!4v1787075141168!5m2!1sen!2seg"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                </div>
-
-
-            </div>
-
-
-
-        </div>
-    </section>
-
-    <!-- end call contact section -->
 
 
 
@@ -377,7 +254,7 @@
 
     <!-- main.js -->
     <script src="js/main.js"></script>
-    <script src="js/contact.js"></script>
+    <script src="js/natification.js"></script>
 
 </body>
 
