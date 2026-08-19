@@ -18,7 +18,7 @@
 }
 
 .appointment-contact{
-    padding: 150px 0;
+    padding: 120px 0;
    background-image: url(../img/bg-home.jpg);
    background-position: center;
    background-size: cover;
@@ -44,6 +44,10 @@
 
 
 .appointment-contact input:nth-of-type(5){
+   text-transform: capitalize;
+}
+
+.appointment-contact input:nth-of-type(6){
    text-transform: capitalize;
 }
 
