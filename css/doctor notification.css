@@ -10,6 +10,18 @@
     padding-top: 80px;
 }
 
+.doctor-notification h2{
+    color: #192a56;
+    font-weight: 700;
+}
+
+/* dark mood */
+
 body.dark .doctor-notification{
     background-color: black;
 }
+
+body.dark .doctor-notification h2{
+   color: white;
+}
+
