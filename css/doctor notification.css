@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.doctor-notification {
+    background-color: white;
+    height: 700px;
+    margin-top: 25px;
+    padding-top: 80px;
+}
+
+body.dark .doctor-notification{
+    background-color: black;
+}
