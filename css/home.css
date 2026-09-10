@@ -492,6 +492,13 @@ body.dark .opinion-home .cards{
 }
 
 
+.navbar_home button{
+  text-transform: capitalize;
+}
+
+
+
+
 
 /* end navbar home section */
 

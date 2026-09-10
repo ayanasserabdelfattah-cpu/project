@@ -7,12 +7,12 @@
 .welcome{
     background-color: #ecf0f1;
     padding: 200px 0;
-    height: 700px;
+    height: 900px;
 }
 
 .welcome a{
    width: 20%;
-   /* color: white; */
+    margin-bottom: 50px;
    text-transform: capitalize;
 }
 
@@ -37,7 +37,10 @@
 .welcome img{
    width:600px;
    
+   
 }
+
+
 
 /* dark mood */
 

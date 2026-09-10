@@ -23,14 +23,10 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- style.css -->
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/details.css">
-
-
-
+    <link rel="stylesheet" href="css/Department.css">
 </head>
 
 <body>
-
 
 
     <!-- start navbar home section -->
@@ -142,7 +138,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a  href="Contact.html" class="nav-link ">Contact</a>
+                    <a href="Contact.html" class="nav-link ">Contact</a>
                 </li>
 
 
@@ -162,9 +158,9 @@
                                 </svg>
                                 Public profile
                             </a>
-                       
-                       
-                         
+
+
+
                             <a href="Notification.html" class="value">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none">
                                     <path fill-rule="evenodd" fill="#7D8590"
@@ -179,11 +175,12 @@
                 </li>
 
 
-
-
             </ul>
 
-              <button class="btn btn-primary">Logout</button>
+
+            <button class="btn btn-primary">Logout</button>
+
+
 
         </div>
     </nav>
@@ -191,161 +188,136 @@
     <!-- end navbar home section -->
 
 
-    <section class="details-home">
-        <div class="container pl-5 pr-5">
+    <!-- start department section -->
 
-
-
+    <section class="department">
+        <div class="container">
             <div class="row">
 
 
-
-
-                <div class="col-md-6 ">
-                    <img src="img/doctor-1.jpg" class="img-fluid mb-4  rounded-5">
-
-                </div>
-
-
-
-
-                <div class="col-md-6 ">
-
-
-
-
-                    <div
-                        class="doctor-info d-flex flex-column align-items-start justify-content-center text-center mt-5">
-
-
-                        <div class="d-flex">
-
-                            <i class="fa-solid fa-id-card-clip fa-lg mt-1 mr-2" style="color: rgb(116, 192, 252);"></i>
-                            <h5 class="mb-4">Doctor ID: <span class="doctor-id  ml-2">5</span></h5>
-
-                        </div>
-
-
-                        <div class="d-flex">
-
-                            <i class="fa-solid fa-user fa-lg mr-1" style="color: rgb(116, 192, 252);"></i>
-                            <h5 class="mb-4">Name: <span class="doctor-Name  ml-2">Dr.Zyad Ali</span></h5>
-
-                        </div>
-
-                        <div class="d-flex">
-
-                            <i class="fa-solid fa-stethoscope fa-lg mr-1" style="color: rgb(116, 192, 252);"></i>
-                            <h5 class="mb-4">Specialization: <span class="doctor-specialization ml-2">Surgeon</span>
-                            </h5>
-
-                        </div>
-
-                        <div class="d-flex">
-
-                            <i class="fa-solid fa-syringe fa-lg mr-1" style="color: rgb(116, 192, 252);"></i>
-                            <h5 class="mb-4">Experience: <span class="doctor-experience ml-2">6 years</span></h5>
-                        </div>
-
-
-                        <div class="d-flex">
-
-                            <i class="fa-solid fa-person-cane fa-lg mr-1" style="color: rgb(116, 192, 252);"></i>
-                            <h5 class="mb-4">Age: <span class="doctor-age ml-2">33</span></h5>
-
-                        </div>
-
-                        <div class="d-flex">
-
-                            <i class="fa-solid fa-money-check-dollar fa-lg mr-1" style="color: rgb(116, 192, 252);"></i>
-                            <h5 class="mb-4">Fees: <span class="doctor-fees ml-2">50$</span></h5>
-
-                        </div>
-
-
-                        <a href=`appointment.html?id=${doctor.id}` class="btn btn-primary rounded-pill">
-                            Appointment
-                        </a>
-
-                        <a href="doctors.html" class="btn btn-dark rounded-pill mt-4">
-                            Back
-                        </a>
-
-
+                <div class="col-md-4">
+                    <div class="one">
+                        <h6>OUR DEPARTMENTS</h6>
+                        <h2>Specialized Care,<br>All in One Place</h2>
+                        <p>We offer a wide range of medical departments with advance technology and a team ofhighly<br> 
+                            qualified speciallists. </p>
                     </div>
 
 
 
-
                 </div>
 
 
 
+                <div class="col-md-4">
+
+                    <div class="title">
+
+                        <div class="department-item">
+
+                            <h5> <i class="fa-solid fa-circle-chevron-right" style="color: rgb(116, 192, 252);"></i>Cardiology</h5>
+
+                            <div class="description">
+                                <h4><i class="fa-solid fa-heart-pulse" style="color: #130f40;"></i> Cardiology</h4>
+                                <p>
+                                    Heart care and treatment for cardiovascular diseases.
+                                </p>
+                            </div>
+
+                        </div>
 
 
-            </div>
+                        <div class="department-item">
+
+                            <h5><i class="fa-solid fa-circle-chevron-right" style="color: rgb(116, 192, 252);"></i> Neurology</h5>
+
+                            <div class="description">
+                                <h4><i class="fa-solid fa-brain" style="color:#130f40 ;"></i> Neurology</h4>
+                                <p>
+                                    Specialized care for brain and nervous system disorders.
+                                </p>
+                            </div>
+
+                        </div>
 
 
+                        <div class="department-item">
+
+                            <h5><i class="fa-solid fa-circle-chevron-right" style="color: rgb(116, 192, 252);"></i> Pediatrics</h5>
+
+                            <div class="description">
+                                <h4><i class="fa-solid fa-child" style="color: #130f40 ;"></i> Pediatrics</h4>
+                                <p>
+                                    Complete healthcare and treatment for children.
+                                </p>
+                            </div>
+
+                        </div>
 
 
+                        <div class="department-item">
+
+                            <h5><i class="fa-solid fa-circle-chevron-right" style="color: rgb(116, 192, 252);"></i> Orthopedics</h5>
+
+                            <div class="description">
+                                <h4><i class="fa-solid fa-bone" style="color: #130f40;"></i> Orthopedics</h4>
+                                <p>
+                                    Care for bones, joints, and muscles.
+                                </p>
+                            </div>
+
+                        </div>
 
 
-            <div class="row mt-5">
-                <div class="col-md-12">
+                        <div class="department-item">
+
+                            <h5><i class="fa-solid fa-circle-chevron-right" style="color: rgb(116, 192, 252);"></i> Dermatology</h5>
+
+                            <div class="description">
+                                <h4><i class="fa-solid fa-pump-soap" style="color: #130f40;"></i> Dermatology</h4>
+                                <p>
+                                    Expert care for skin, hair, and nail conditions.
+                                </p>
+                            </div>
+
+                        </div>
 
 
-                    <div class=" d-flex  align-items-center justify-content-center ">
+                        <div class="department-item">
 
-                        <i class="fa-regular fa-calendar-days fa-lg mb-2 mr-2" style="color: rgb(116, 192, 252);"></i>
-                        <h4>Available Appointments</h4>
+                            <h5><i class="fa-solid fa-circle-chevron-right" style="color: rgb(116, 192, 252);"></i> Emergency</h5>
+
+                            <div class="description">
+                                <h4><i class="fa-solid fa-truck-medical" style="color: #130f40;"></i> Emergency</h4>
+                                <p>
+                                    Fast care for urgent medical conditions.
+                                </p>
+                            </div>
+
+                        </div>
 
                     </div>
 
-
-                    <table class="table table-striped table-light ">
-
-                        <thead>
-                            <tr>
-                                <th scope="col">Day</th>
-                                <th scope="col">From</th>
-                                <th scope="col">To</th>
-                               
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                
-                                <td>Saturday</td>
-                                <td>07:00 AM</td>
-                                <td>09:00 PM</td>
-                                
-                            </tr>
-                            <tr>
-                               
-                                <td>Monday</td>
-                                <td>02:00 PM</td>
-                                <td>07:00 PM</td>
-                              
-
-                            </tr>
-                            <tr>
-                                
-                                <td>Wednesday</td>
-                                <td>12:00 PM</td>
-                                <td>11:00 PM</td>
-                                
-                            </tr>
-                        </tbody>
-                    </table>
-
                 </div>
 
             </div>
-
-
         </div>
 
     </section>
+
+
+
+
+    <!-- end department section -->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -380,9 +352,7 @@
 
     <!-- main.js -->
     <script src="js/home.js"></script>
-    <script src="js/details.js"></script>
-
-
+    <!-- <script src="js/contact.js"></script> -->
 </body>
 
 </html>
